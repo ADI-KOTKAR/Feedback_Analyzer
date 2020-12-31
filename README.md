@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   
-  <img src="https://img.icons8.com/color/80/000000/data-encryption.png"/>
+  <img src="https://img.icons8.com/officel/80/000000/feedback.png"/>
   
   <h1 align="center">Feedback Analyzer</h1>
 
@@ -69,6 +69,6 @@ Get all Setup Resources : [Feedback_Analyzer_Resources](https://drive.google.com
 ## License
 
 - Project link: [Feedback_Analyzer](https://github.com/ADI-KOTKAR/Feedback_Analyzer)
-- [License](https://github.com/ADI-KOTKAR/Stega/blob/master/LICENSE)
+- [License](https://github.com/ADI-KOTKAR/Feedback_Analyzer/blob/main/LICENSE)
 
 
