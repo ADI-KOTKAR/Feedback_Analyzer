@@ -118,7 +118,7 @@ def sentiment_evaluation(polarities):
     polarity_list = { "-1" : neg, "0" : neu, "1" : pos }
     # print(polarity_list)
     if pos == neu == neg == 0: return 0 
-    # if neg > 0: return -1
+    if neg > 1 and (neg >= pos-1 or neg >= neu-1): return -1
     if pos >= neu and pos > neg: return 1
     return max(polarity_list, key= lambda x: polarity_list[x])
 

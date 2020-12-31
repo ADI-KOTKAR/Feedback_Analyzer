@@ -1,1 +1,5 @@
 .vscode
+textblob_trial.py
+*.zip
+*.csv
+!sample.csv
