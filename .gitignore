@@ -1,5 +1,10 @@
+# Generated Files
 .vscode
 textblob_trial.py
+
+# Common files
 *.zip
 *.csv
+
+# Exceptions
 !sample.csv
