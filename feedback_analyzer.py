@@ -30,6 +30,16 @@ print("-------------------------------------------------------------------------
 input_file = sys.argv[1]
 print(input_file,"been used.")
 
+# Check if Input is correct
+try :
+    data = pd.read_csv("sample.csv", index_col ="Feedback" ) 
+except ValueError : 
+    print("'Feedback' column not found!")
+    print("Process Terminated. Please go through Instructions.")
+    sys.exit() 
+else :
+    print("Input Check Completed.")
+    print("------------------------------------------------------")
 
 '''Word Count'''
 
