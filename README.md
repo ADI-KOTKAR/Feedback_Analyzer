@@ -62,6 +62,15 @@ Get all Setup Resources : [Feedback_Analyzer_Resources](https://drive.google.com
 - Detailed Steps of Project Setup: [Feedback_Analyzer_Setup](https://youtu.be/73A7xh9uC24)
 - List of packages for Python Environment : *numpy, pandas, matplotlib, textblob, vaderSentiment, wordcloud*
 
+#### Run Code
+- Input CSV file with feedbacks having column name 'Feedback'.
+- Opening terminal with environment, enter instruction:
+```
+spark-submit feedback_analyzer.py sample.csv
+```
+- Output generated in the form of zip file
+
+
 ## Contact Me
 
 - **Aditya Kotkar** - [ADI-KOTKAR](https://github.com/ADI-KOTKAR) | [Email](adityakotkar75@gmail.com)
